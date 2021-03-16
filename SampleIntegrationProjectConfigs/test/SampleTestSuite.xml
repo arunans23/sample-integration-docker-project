@@ -1,0 +1,31 @@
+<unit-test>
+    <artifacts>
+        <test-artifact>
+            <artifact>/SampleIntegrationProjectConfigs/src/main/synapse-config/api/SampleAPI.xml</artifact>
+        </test-artifact>
+        <supportive-artifacts/>
+        <registry-resources/>
+        <connector-resources/>
+    </artifacts>
+    <test-cases>
+        <test-case name="SimpleTestcase">
+            <input>
+                <request-path>/sample</request-path>
+                <request-method>GET</request-method>
+            </input>
+            <assertions>
+                <assertEquals>
+                    <actual>$body</actual>
+                    <expected><![CDATA[{"Sample":"Response"}]]></expected>
+                    <message>Expected body not received</message>
+                </assertEquals>
+                <assertEquals>
+                    <actual>$statusCode</actual>
+                    <expected><![CDATA[200]]></expected>
+                    <message>Expected code is not received</message>
+                </assertEquals>
+            </assertions>
+        </test-case>
+    </test-cases>
+    <mock-services/>
+</unit-test>

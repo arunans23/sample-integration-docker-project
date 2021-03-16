@@ -1,0 +1,12 @@
+---
+apiVersion: "wso2.com/v1alpha2"
+kind: "Integration"
+metadata:
+  name: "sample-integration"
+spec:
+  image: "arunans23/sample-integration:1.0.0-SNAPSHOT"
+  deploySpec:
+    minReplicas: 1
+  envFrom:
+  - configMapRef:
+      name: "env-data"
