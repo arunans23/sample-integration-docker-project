@@ -70,10 +70,7 @@
         <configuration>
           <filesets>
             <fileset>
-              <directory>${project.build.directory}/../CompositeApps</directory>
-              <includes>
-                <include>**/*</include>
-              </includes>
+              <directory>${basedir}/CompositeApps</directory>
             </fileset>
           </filesets>
         </configuration>
