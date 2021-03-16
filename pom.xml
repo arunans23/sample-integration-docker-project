@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
   <artifactId>SampleIntegrationProject</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>SampleIntegrationProject</name>
   <description>SampleIntegrationProject</description>
