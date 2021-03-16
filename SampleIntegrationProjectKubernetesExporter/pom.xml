@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>SampleIntegrationProject</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>SampleIntegrationProjectKubernetesExporter</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>SampleIntegrationProjectKubernetesExporter</name>
   <description>SampleIntegrationProjectKubernetesExporter</description>
   <properties>
@@ -26,7 +26,7 @@
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>SampleIntegrationProjectCompositeExporter</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
       <type>car</type>
     </dependency>
   </dependencies>
