@@ -71,6 +71,9 @@
           <filesets>
             <fileset>
               <directory>${project.build.directory}/../CompositeApps</directory>
+              <includes>
+                <include>**/*</include>
+              </includes>
             </fileset>
           </filesets>
         </configuration>
