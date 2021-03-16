@@ -16,7 +16,7 @@
             <assertions>
                 <assertEquals>
                     <actual>$body</actual>
-                    <expected><![CDATA[{"Sample":"Response"}]]></expected>
+                    <expected><![CDATA[{"Sample":"Response Message"}]]></expected>
                     <message>Expected body not received</message>
                 </assertEquals>
                 <assertEquals>
