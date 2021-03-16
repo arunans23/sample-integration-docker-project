@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>SampleIntegrationProject</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>SampleIntegrationProjectCompositeExporter</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>carbon/application</packaging>
   <name>SampleIntegrationProjectCompositeExporter</name>
   <description>SampleIntegrationProjectCompositeExporter</description>
