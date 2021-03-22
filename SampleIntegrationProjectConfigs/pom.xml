@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>SampleIntegrationProject</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>SampleIntegrationProjectConfigs</artifactId>
-  <version>1.0.5</version>
+  <version>1.0.6-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>SampleIntegrationProjectConfigs</name>
   <description>SampleIntegrationProjectConfigs</description>
